@@ -21,6 +21,9 @@
     -   NODEMAILER_PASSWORD = app password for the account
 
 ```
+HOST=sltc.app.promentor.local
+PORT=8082
+
 SES_EMAIL_ADDRESS=promentororg@gmail.com
 SES_ACCESS_KEY_ID=****************
 SES_SECRET_ACCESS_KEY=*************************
@@ -28,4 +31,6 @@ SES_REGION=us-east-1
 
 NODEMAILER_EMAIL=promentororg@gmail.com
 NODEMAILER_PASSWORD=**********
+
+RABBITMQ_CONNECTION=amqp://admin:admin@localhost:5672
 ```
