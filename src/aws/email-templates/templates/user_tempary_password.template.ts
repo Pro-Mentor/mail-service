@@ -11,9 +11,9 @@ class UserTemparyPasswordTemplate extends BaseTemplate<UserTemparyPasswordTempla
 
     htmlContent = 'Pro Mentor App - Tempary Password';
 
-    subject = `<h1>Hi {{name}},</h1><br>
+    subject = `<h4>Hi {{name}},</h4><br>
         <p>Someone just created a account using your email in the {{realm}} for Pro Mentor App.</p>
-        <p>Use this one time tempary password to login to your account.</p>
+        <p>Use this one time password to login to your account.</p>
         <p>username: {{username}}</p>
         <p>Your tempary password is: {{password}}</p>
         <p>If have any concerns, please contact your organization IT department</p>

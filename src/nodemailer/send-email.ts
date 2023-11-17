@@ -23,8 +23,8 @@ const sendEmail = async (to: string, subject: string, html: string, text: string
         console.debug(response);
         console.log("Email sent successfully");
     } catch (error) {
-        console.error(error);
-        throw error;
+        console.error("Error sending email.", (error as Error).message);
+        console.debug(error);
     }
     
 };

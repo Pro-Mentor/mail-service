@@ -23,6 +23,7 @@
 ```
 HOST=sltc.app.promentor.local
 PORT=8082
+SERVICE_NAME=pro-mentor-mail-service
 
 SES_EMAIL_ADDRESS=promentororg@gmail.com
 SES_ACCESS_KEY_ID=****************

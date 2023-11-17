@@ -25,6 +25,10 @@ const envValidation = () => {
         throw new Error("The host must be defined");
     }
 
+    if (!process.env.SERVICE_NAME) {
+        throw new Error("The service name must be defined");
+    }
+
     if (!process.env.RABBITMQ_CONNECTION) {
         throw new Error("RabbmitMQ connection string is required");
     }
